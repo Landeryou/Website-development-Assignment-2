@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: grey;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+#heading{
+    background-color: black;
+    color: white;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+
+#heading-EXISTINGWEBDEV-element{
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+#heading-EXISTINGWEBDEV-element:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.45s ease-out;
+}
+
+#heading-EXISTINGWEBDEV-element:hover:after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+#heading-APPLY-element{
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+#heading-APPLY-element:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.45s ease-out;
+}
+
+#heading-APPLY-element:hover:after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+#heading-ABOUTUS-element{
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+#heading-ABOUTUS-element:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.45s ease-out;
+}
+
+#heading-ABOUTUS-element:hover:after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+#heading{
+    padding: 40px;
+}
+
+#heading-PAGES{
+    display: flex;
+    padding-top: 20px;
+}
+
+#heading-LOGO-IMAGE{
+    width: auto;
+    height: 60px;
+    padding-left: 15px;
+}
+
+#heading-ABOUTUS{
+    padding-left: 100px;
+}
+
+#heading-divider{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#content{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#content-HEADER{
+    font-size: 30px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    margin-top: 175px;
+}
+
+input{
+    border-radius: 15px;
+    border: 5px;
+    border-style: solid;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+label{
+    border-radius: 15px;
+    border: 5px;
+    border-style: solid;
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+textarea{
+    border-radius: 15px;
+    border: 5px;
+    border-style: solid;
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+}
+
+#footer-divider{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footer-legal{
+    display: flex;
+    height: 0;
+    margin-top: 10px;
+}
+
+#footer-social{
+    display: flex;
+    justify-content: end;
+}
+
+#footer-TANDC{
+    justify-content: center;
+}
+
+#footer-FACEBOOK-LOGO{
+    width: auto;
+    height: 25px;
+    padding-right: 35px;
+}
+
+#footer-INSTAGRAM-LOGO{
+    width: auto;
+    height: 25px;
+    padding-right: 35px;
+}
+
+#footer-REDDIT-LOGO{
+    width: auto;
+    height: 25px;
+    padding-right: 35px;
+}
+
+#footer-TIKTOK-LOGO{
+    width: auto;
+    height: 25px;
+    padding-right: 75px;
+}
+
+#footer-TANDC-LINK{
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+#footer-TANDC-LINK:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.45s ease-out;
+}
+
+#footer-TANDC-LINK:hover:after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+#footer-COOKIES-LINK{
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+#footer-COOKIES-LINK:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.45s ease-out;
+}
+
+#footer-COOKIES-LINK:hover:after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+#footer-COPYRIGHT-LINK{
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+#footer-COPYRIGHT-LINK:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.45s ease-out;
+}
+
+#footer-COPYRIGHT-LINK:hover:after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+@media only screen and (max-width: 789px){
+    body{
+        overflow-y: auto;
+    }
+    
+    #heading{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    #heading-PAGES{
+        font-size: 13px;
+        justify-content: center;
+        padding-right: 80px;
+    }
+
+    #heading-LOGO{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
+
+    #heading-divider{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #heading-LOGO-IMAGE{
+        padding-left: 25px;
+    }
+
+    #content-HEADER{
+        justify-content: center;
+        padding-top: 15px;
+        font-size: 25px;
+        padding-right: 25px;
+    }
+
+    #footer{
+        padding: 0;
+    }
+
+    #footer-legal{
+        font-size: 13px;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+
+    #footer-social{
+        padding-top: 35px;
+        padding-right: 25px;
+        padding-bottom: 15px;
+    }
+
+    #SUBMIT-FORM{
+        margin-bottom: 150px;
+    }
+}

@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: grey;
+    overflow-y: hidden;
+}
+
+#heading{
+    background-color: black;
+    color: white;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+
+#heading-EXISTINGWEBDEV-element{
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#heading-EXISTINGWEBDEV-element:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.45s ease-out;
+}
+
+#heading-EXISTINGWEBDEV-element:hover:after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+#heading-APPLY-element{
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+#heading-APPLY-element:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.45s ease-out;
+}
+
+#heading-APPLY-element:hover:after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+#heading-ABOUTUS-element{
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+#heading-ABOUTUS-element:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.45s ease-out;
+}
+
+#heading-ABOUTUS-element:hover:after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+#heading{
+    padding: 40px;
+}
+
+#heading-PAGES{
+    display: flex;
+    padding-top: 20px;
+}
+
+#heading-LOGO-IMAGE{
+    width: auto;
+    height: 60px;
+    padding-left: 15px;
+}
+
+#heading-ABOUTUS{
+    padding-left: 100px;
+}
+
+#heading-divider{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#content{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#content-HEADER{
+    font-size: 30px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    margin-top: 175px;
+}
+
+#content-HEADER-IMAGES{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+#content-WEBDEV-IMAGES{
+    display: flex;
+    font-size: 15px;
+    text-align: left;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+#content-WEBDEV-PIC-1{
+    width: auto;
+    height: 125px;
+    border-radius: 15px;
+    border: 5px;
+    border-style: solid;
+}
+
+#content-WEBDEV-PIC-2{
+    width: auto;
+    height: 125px;
+    border-radius: 15px;
+    border: 5px;
+    border-style: solid;
+}
+
+#content-WEBDEV-PIC-3{
+    width: auto;
+    height: 125px;
+    border-radius: 15px;
+    border: 5px;
+    border-style: solid;
+}
+
+#content-WEBDEV-PIC-4{
+    width: auto;
+    height: 125px;
+    border-radius: 15px;
+    border: 5px;
+    border-style: solid;
+}
+
+#content-WEBDEV-PIC-5{
+    width: auto;
+    height: 125px;
+    border-radius: 15px;
+    border: 5px;
+    border-style: solid;
+}
+
+#content-WEBDEV-PIC-6{
+    width: auto;
+    height: 125px;
+    border-radius: 15px;
+    border: 5px;
+    border-style: solid;
+}
+
+#content-WEBDEVCOURSES-1{
+    display: flex;
+    justify-content: end;
+    padding-right: 250px;
+    padding-top: 35px;
+    padding-bottom: 3px;
+}
+
+#content-WEBDEVCOURSES-2{
+    display: flex;
+    justify-content: end;
+    padding-right: 250px;
+}
+
+#content-WEBDEVCOURSES-BUTTON-1{
+    width: 100px;
+    height: 100px;
+    margin-right: 3px;
+    border-radius: 15px;
+    border: 5px;
+    border-style: solid;
+}
+
+#content-WEBDEVCOURSES-BUTTON-2{
+    width: 100px;
+    height: 100px;
+    padding-left: 5px;
+    border-radius: 15px;
+    border: 5px;
+    border-style: solid;
+}
+
+#content-WEBDEVCOURSES-BUTTON-3{
+    width: 100px;
+    height: 100px;
+    margin-right: 3px;
+    border-radius: 15px;
+    border: 5px;
+    border-style: solid;
+}
+
+#content-WEBDEVCOURSES-BUTTON-4{
+    width: 100px;
+    height: 100px;
+    padding-left: 5px;
+    border-radius: 15px;
+    border: 5px;
+    border-style: solid;
+}
+
+#content-RequiredQualifications{
+    border-style: solid;
+    border-radius: 15px;
+    position: relative;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-right: 450px;
+    border: 5px;
+    border-style: solid;
+}
+
+#content-APPLY-BUTTON{
+    margin-right: 800px;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    border: 5px;
+    border-style: solid;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+}
+
+#footer-divider{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footer-legal{
+    display: flex;
+    height: 0;
+    margin-top: 10px;
+}
+
+#footer-social{
+    display: flex;
+    justify-content: end;
+}
+
+#footer-TANDC{
+    justify-content: center;
+}
+
+#footer-FACEBOOK-LOGO{
+    width: auto;
+    height: 25px;
+    padding-right: 35px;
+}
+
+#footer-INSTAGRAM-LOGO{
+    width: auto;
+    height: 25px;
+    padding-right: 35px;
+}
+
+#footer-REDDIT-LOGO{
+    width: auto;
+    height: 25px;
+    padding-right: 35px;
+}
+
+#footer-TIKTOK-LOGO{
+    width: auto;
+    height: 25px;
+    padding-right: 75px;
+}
+
+#footer-TANDC-LINK{
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+#footer-TANDC-LINK:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.45s ease-out;
+}
+
+#footer-TANDC-LINK:hover:after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+#footer-COOKIES-LINK{
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+#footer-COOKIES-LINK:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.45s ease-out;
+}
+
+#footer-COOKIES-LINK:hover:after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+#footer-COPYRIGHT-LINK{
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+#footer-COPYRIGHT-LINK:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.45s ease-out;
+}
+
+#footer-COPYRIGHT-LINK:hover:after{
+    transform: scaleX(1);
+    transform-origin: center;
+}
+
+@media only screen and (max-width: 1353px) {
+    #content-PARAGRAPH{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}
+
+@media only screen and (max-width: 1099px) {
+    #content-PARAGRAPH{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+@media only screen and (max-width: 822px) {
+    #content-PARAGRAPH{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #heading-ABOUTUS{
+        padding-left: 30px;
+    }
+
+    #heading-PAGES{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 895px){
+    body{
+        overflow-y:auto;
+    }
+    
+    #heading{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    #heading-PAGES{
+        font-size: 13px;
+        justify-content: center;
+        padding-right: 25px;
+    }
+
+    #heading-LOGO{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        padding-right: 25px;
+    }
+
+    #heading-divider{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #heading-LOGO-IMAGE{
+        padding-left: 25px;
+    }
+
+    #content-HEADER{
+        justify-content: center;
+        padding-top: 15px;
+        font-size: 25px;
+        padding-right: 25px;
+    }
+
+    #content-WEBDEV-IMAGES{
+        display: grid;
+        padding-top: 20px;
+    }
+    
+    #content-WEBDEV-PIC-2{
+        margin-top: 15px;
+    }
+    
+    #content-WEBDEV-PIC-3{
+        margin-top: 15px;
+    }
+    
+    #content-WEBDEV-PIC-4{
+        margin-top: 15px;
+    }
+    
+    #content-WEBDEV-PIC-5{
+        margin-top: 15px;
+    }
+    
+    #content-WEBDEV-PIC-6{
+        margin-top: 15px;
+    }
+
+    #WEBDEV-P{
+        margin-bottom: 125px;
+    }
+
+    #footer{
+        padding: 0;
+    }
+
+    #footer-legal{
+        font-size: 13px;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+
+    #footer-social{
+        padding-top: 35px;
+        padding-right: 25px;
+        padding-bottom: 15px;
+    }
+}

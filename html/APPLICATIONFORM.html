@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "../css/APPLICATIONFORM.css">
+    <title>Application Form</title>
+</head>
+<body>
+    <script src = "../js/script.js"></script>
+
+    <div id = "heading">
+        <div id = "heading-LOGO"><img src = "../images/logo.png" id = "heading-LOGO-IMAGE"></div>
+        <div id = "heading-PAGES">
+            <div id = "heading-ABOUTUS"><a id = "heading-ABOUTUS-element" href = "../html/ABOUTUS.html">ABOUT US</a></div>
+            <div id = "heading-divider">|</div>
+            <div id = "heading-EXISTINGWEBDEV"><a id = "heading-EXISTINGWEBDEV-element" href = "../html/EXISTINGWEBDEV.html">EXISTING WEBSITE<br>DEVELOPERS</a></div>
+            <div id = "heading-divider">|</div>
+            <div id = "heading-APPLY"><a id = "heading-APPLY-element" href = "../html/APPLY.html">APPLY NOW!</a></div>
+        </div>
+    </div>
+
+    <div id = "content">
+        <div id = "content-HEADER">
+            Application Form
+        </div>
+        <form>
+            <div class = "Question-1">
+                <input id = "NAME" type="text" placeholder = "Enter First Name" required>
+                <input id = "LAST-NAME" type="text" placeholder = "Enter Last Name" required>
+            </div>
+            <div class = "Question-2">
+                <input id = "EMAIL" type="email" placeholder = "Enter Email Address" required>
+            </div>
+            <div class = "Question-3">
+                <input id = "PHONE-NUMBER" type="tel" placeholder = "Enter Telephone Number" required>
+            </div>
+            <div class = "Question-4">
+                <textarea id = "EXPERIENCE" type="text" placeholder = "Enter Previous Website Development Experience" required rows="10" cols="30"></textarea>
+            </div>
+            <div class = "Question-5">
+                <label>Choose a CV file</label><input id = "CV" type="file">
+            </div>
+            <div class = "Submit">
+                <input id = "SUBMIT-FORM" type="submit">
+            </div>
+        </form>
+    </div>
+
+    <div id = "footer">
+        <div id = "footer-elements">
+            <div id = "footer-legal">
+                <div id = "footer-TANDC"><a href = "" alt = "terms and conditions link" id = "footer-TANDC-LINK">Terms and Conditions</a></div>
+                <div id = "footer-divider">|</div>
+                <div id = "footer-COOKIES"><a href = "" alt = "cookies link" id = "footer-COOKIES-LINK">Cookie Privacy Policy</a></div>
+                <div id = "footer-divider">|</div>
+                <div id = "footer-COPYRIGHT"><a href = "" alt = "copyright link" id = "footer-COPYRIGHT-LINK">Copyright</a></div>
+            </div>
+
+            <div id = "footer-social">
+                <div id = "footer-FACEBOOK"><a href = "https://en-gb.facebook.com" target = "_blank"><img src = "../images/facebook.png" alt = "facebook link" id = "footer-FACEBOOK-LOGO"></a></div>
+                <div id = "footer-INSTAGRAM"><a href = "https://www.instagram.com" target = "_blank"><img src = "../images/instagram.png" alt = "instagram link" id = "footer-INSTAGRAM-LOGO"></a></div>
+                <div id = "footer-REDDIT"><a href = "https://www.reddit.com" target = "_blank"><img src = "../images/reddit.png" alt = "reddit link" id = "footer-REDDIT-LOGO"></a></div>
+                <div id = "footer-TIKTOK"><a href = "https://www.tiktok.com/en/" target = "_blank"><img src = "../images/tiktok.png" alt = "tiktok link" id = "footer-TIKTOK-LOGO"></a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
